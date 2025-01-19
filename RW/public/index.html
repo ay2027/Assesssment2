@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRATION</title>
+
+    <!-- Bootstrap CDN for Styling and Grid Layout -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS for custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas></canvas>
+
+    <!-- Header Section -->
+    <header id="header" class="text-center py-4">
+        <h1>REGISTRATION</h1>
+        <h2>Springfield International School</h2>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="container my-5">
+        <h2>Welcome to Springfield International School</h2>
+        <p>At Springfield International School, we strive to provide a world-class education that nurtures the intellectual, emotional, and social development of our students. Our campus is equipped with modern facilities and state-of-the-art technology, and we offer a rich curriculum designed to prepare students for success in the global arena.</p>
+        <p>We take pride in our diverse and inclusive environment, where every student is encouraged to reach their full potential. Our experienced and dedicated staff are committed to fostering a supportive and dynamic learning atmosphere.</p>
+        <p>Join us on this exciting educational journey, and together, we will shape the leaders of tomorrow.</p>
+    </section>
+
+    <!-- Navigation Bar -->
+    <nav class="text-center">
+        <button onclick="scrollToSection('faq')">F.A.Q.</button>
+        <button onclick="scrollToSection('signup')">Sign up</button>
+        <button onclick="scrollToSection('fees')">Fees</button>
+        <button onclick="scrollToSection('curricula')">Curricula</button>
+        <button onclick="scrollToSection('admission-policies')">Policies</button>
+    </nav>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="container my-5">
+        <h2>Frequently Asked Questions (FAQ)</h2>
+        <div class="section-box">
+            <h3>What are the school hours?</h3>
+            <p>School hours are from 8:00 AM to 3:00 PM.</p>
+        </div>
+        <div class="section-box">
+            <h3>What is the school’s admission process?</h3>
+            <p>The admission process involves filling out an application form, submitting required documents, and attending an interview.</p>
+        </div>
+        <div class="section-box">
+            <h3>Are there extracurricular activities?</h3>
+            <p>Yes, we offer a variety of extracurricular activities, including sports, music, arts, and clubs.</p>
+        </div>
+        <div class="section-box">
+            <h3>What are the fees for the current academic year?</h3>
+            <p>Fees vary depending on the curriculum selected. Please refer to the Tuition Fees section for more details.</p>
+        </div>
+        <div class="section-box">
+            <h3>How do I contact the school?</h3>
+            <p>You can contact the school via email, phone, or by visiting our contact page on the website.</p>
+        </div>
+        <div class="section-box">
+            <h3>Is transportation provided for students?</h3>
+            <p>Yes, we provide school buses for transportation within certain areas. Please refer to the transportation section for more details.</p>
+        </div>
+        <div class="section-box">
+            <h3>What is the teacher-student ratio?</h3>
+            <p>Our average teacher-student ratio is 1:12, ensuring individual attention for each student.</p>
+        </div>
+        <div class="section-box">
+            <h3>Are meals provided at the school?</h3>
+            <p>Yes, we provide nutritious meals at the school canteen, with both vegetarian and non-vegetarian options.</p>
+        </div>
+        <div class="section-box">
+            <h3>What is the school's policy on uniforms?</h3>
+            <p>Students are required to wear the school uniform, which can be purchased from the official supplier.</p>
+        </div>
+        <div class="section-box">
+            <h3>Does the school offer special education services?</h3>
+            <p>Yes, we have a dedicated team to support students with special educational needs and provide the necessary accommodations.</p>
+        </div>
+    </section>
+
+    <!-- Fees Section -->
+    <section id="fees" class="container my-5">
+        <h2>Tuition Fees</h2>
+        <br>
+        <h3>Boys School Tuition Fees</h3>
+        <div class="grid-box-boys">
+            <div class="fee-box">
+                <h4>American Curriculum Fees</h4>
+                <p>Academic Year 2024 - 2025</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="fee-box">
+                <h4>British Curriculum Fees</h4>
+                <p>Academic Year 2024 - 2025</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+        <br>
+        <h3>Girls School Tuition Fees</h3>
+        <div class="grid-box-girls">
+            <div class="fee-box">
+                <h4>American Curriculum Fees</h4>
+                <p>Academic Year 2024 - 2025</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="fee-box">
+                <h4>British Curriculum Fees</h4>
+                <p>Academic Year 2024 - 2025</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+        <br>
+        <div class="fee-box">
+            <h3>Tuition Fees Contract</h3>
+            <p>Account Contract (English and Arabic)</p>
+            <button class="learn-more">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Curricula Section -->
+    <section id="curricula" class="container my-5">
+        <h2>Curricula</h2>
+        <div class="grid-box-curricula">
+            <div class="curriculum-box">
+                <img src="american-program.jpg" alt="American Program" class="curriculum-img">
+                <p class="curriculum-title">The American Program</p>
+                <p>A flexible, student-centered approach focusing on critical thinking and innovation.</p>
+            </div>
+            <div class="curriculum-box">
+                <img src="british-program.jpg" alt="British Program" class="curriculum-img">
+                <p class="curriculum-title">The British Program</p>
+                <p>Structured, academic-focused curriculum preparing students for international qualifications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Policies Section -->
+    <section id="admission-policies" class="container my-5">
+        <h2>School Admission Policies</h2>
+        <br>
+        <h3>Policy 1</h3>
+        <div class="grid-box-policies">
+            <div class="policy-box">
+                <h4>Student Admission, Registration, and Distribution</h4>
+                <p>Details about student admission, registration, and distribution procedures.</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+        <br>
+        <h3>Policy 2</h3>
+        <div class="grid-box-policies">
+            <div class="policy-box">
+                <h4>قبول الطالب وتسجيلهم وتوزيعهم</h4>
+                <p>تفاصيل حول قبول الطالب، تسجيلهم، وتوزيعهم.</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up Section -->
+    <section id="signup" class="container my-5">
+        <h2>Sign Up</h2>
+        <form id="registrationForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required class="form-control">
+    
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required class="form-control">
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required class="form-control">
+    
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required class="form-control">
+    
+            <label for="grade">Grade Applying For:</label>
+            <select id="grade" name="grade" required class="form-control">
+                <option value="">Select a grade</option>
+                <option value="1">Grade 1</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+                <option value="4">Grade 4</option>
+                <option value="5">Grade 5</option>
+                <option value="6">Grade 6</option>
+                <option value="7">Grade 7</option>
+                <option value="8">Grade 8</option>
+                <option value="9">Grade 9</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+            </select>
+    
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" placeholder="Enter your address" required class="form-control"></textarea>
+    
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Enter any additional information" class="form-control"></textarea>
+    
+            <button type="submit" class="btn btn-primary mt-3">Submit Registration</button>
+        </form>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="canvasScript.js" type="text/javascript" defer="defer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function scrollToSection(sectionId) {
+            const header = document.getElementById('header');
+            const section = document.getElementById(sectionId);
+
+            // Hide the header
+            header.style.display = 'none';
+
+            // Scroll to the section
+            section.scrollIntoView({ behavior: 'smooth' });
+
+            // Show the header after a delay
+            setTimeout(() => {
+                header.style.display = 'block';
+            }, 600);
+        }
+    </script>
+</body>
+
+</html>
