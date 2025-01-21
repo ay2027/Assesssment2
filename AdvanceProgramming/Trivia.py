@@ -12,9 +12,9 @@ class TriviaApp:
         self.root.resizable(False, False)
 
         # Load background image
-        self.background_image = tk.PhotoImage(file="Sky_background.png")  # Replace with your image path
+        self.background_image = tk.PhotoImage(file="Sky_background.png") 
         self.background_label = tk.Label(root, image=self.background_image)
-        self.background_label.place(relwidth=1, relheight=1)  # Cover the entire window
+        self.background_label.place(relwidth=1, relheight=1)  
 
         # Initialize variables
         self.question = ""
@@ -67,7 +67,7 @@ class TriviaApp:
                 font=("Arial", 12),
                 command=lambda i=i: self.check_answer(i),
             )
-            # Place buttons in a 2x2 grid
+            
             btn.grid(row=i // 2, column=i % 2, padx=10, pady=5)
             self.option_buttons.append(btn)
 
